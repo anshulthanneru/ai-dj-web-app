@@ -1,0 +1,29 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+}
+.notif {
+    font-size: 15px;
+    width: 100%;
+    color: gray;
+}
+body {
+    background-size: cover;
+}
+#speed #volume {
+    font-size: 25px;
+    margin: 50px;
+}
+canvas {
+    border: 15px ridge snow;
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    50% {box-shadow: 15px 25px 40px gray;}
+}
+.play_button {
+    width: 75px;
+    height: 50px;
+    font-size: 25px; 
+}
